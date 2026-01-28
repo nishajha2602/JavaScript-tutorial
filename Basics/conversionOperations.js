@@ -12,3 +12,8 @@ NaN = not a number
 "" = false
 "anything" = true
 */
+
+// ****************Operations*************************
+
+console.log(+true)
+console.log(+"")
