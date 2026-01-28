@@ -16,4 +16,4 @@ let isLoggedIn = false //boolean =>true/false
 let state  //undefined
 
 //typeof is a function
-console.table(typeof([name,age,isLoggedIn,state])) //object
+console.table(typeof [name,age,isLoggedIn,state]) //object
