@@ -58,3 +58,18 @@ console.log(Object.values(gitUser));
 console.log(Object.entries(gitUser));
 
 console.log(Object.hasOwnProperty('isLoggedIn'));
+
+
+const course ={
+    courseName: "JavaScript",
+    price: 999,
+    courseInstructor:"Hitesh"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course; //object destructuring
+//console.log(courseInstructor);
+
+console.log(instructor);
+
