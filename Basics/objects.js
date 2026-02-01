@@ -1,4 +1,5 @@
 //singleton -- Object.create
+//const user = new Object()
 
 //object literals
 
